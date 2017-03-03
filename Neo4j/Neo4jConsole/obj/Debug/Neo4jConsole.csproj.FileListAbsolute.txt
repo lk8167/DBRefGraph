@@ -1,0 +1,15 @@
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Neo4jConsole.exe.config
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Neo4jConsole.exe
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Neo4jConsole.pdb
+C:\SourceCode\Neo4j\Neo4jConsole\obj\Debug\Neo4jConsole.exe
+C:\SourceCode\Neo4j\Neo4jConsole\obj\Debug\Neo4jConsole.pdb
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Neo4j.Driver.dll
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Sockets.Plugin.Abstractions.dll
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Sockets.Plugin.dll
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Neo4j.Driver.pdb
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Neo4j.Driver.xml
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Sockets.Plugin.pdb
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Sockets.Plugin.xml
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Sockets.Plugin.Abstractions.pdb
+C:\SourceCode\Neo4j\Neo4jConsole\bin\Debug\Sockets.Plugin.Abstractions.xml
+C:\SourceCode\Neo4j\Neo4jConsole\obj\Debug\Neo4jConsole.csprojResolveAssemblyReference.cache

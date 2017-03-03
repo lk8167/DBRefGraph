@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Query from source node</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Content/bootstrap.css" />
+    <script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+</head>
+<body ng-app="DPGraph">
+    <div class="container-fluid" ng-controller="queryFromTargetNode">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <form class="form-inline">
+                    <select id="nodeTypeDropdown" ng-model="targetNodeType" ng-change="loadTargetNodeNamesByNodeType()">
+                        <option selected="selected" value="">--Select Node Type--</option>
+                        <option value="Page">Page</option>
+                        <option value="StoredProcedure">Stored Procedure</option>
+                        <option value="Function">Function</option>
+                        <option value="View">View</option>
+                        <option value="Table">Table</option>
+                    </select>
+                    <select id="nodeNameDropdown" ng-model="targetNodeName" ng-options="node.DisplayName as node.DisplayName for node in targetNodes">
+                        <option selected="selected" value="">--Select Node--</option>
+                    </select>
+                    <button ng-click="query()" class="btn btn-primary">Query</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Node Type</th>
+                            <th>Node Name</th>
+                            <th>Operation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="node in sourceNodes">
+                            <td>{{node.NodeType}}</td>
+                            <td>{{node.DisplayName}}</td>
+                            <td><button class="btn btn-primary" ng-click="next(node.NodeType,node.DisplayName)">Next</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="Scripts/app/queryFromTarget.js"></script>
+
+</body>
+</html>

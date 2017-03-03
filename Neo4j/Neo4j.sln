@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo4jConsole", "Neo4jConsole\Neo4jConsole.csproj", "{1CFC984C-5D1D-45F2-B468-592564E2EA1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseGraph", "DatabaseGraph\DatabaseGraph.csproj", "{17435BD3-F8B1-449D-B392-446D932A62E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseGraphWebsite", "DatabaseGraphWebsite\DatabaseGraphWebsite.csproj", "{A5884BB6-AEFA-4321-A02C-E66E1FB38FFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CFC984C-5D1D-45F2-B468-592564E2EA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CFC984C-5D1D-45F2-B468-592564E2EA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CFC984C-5D1D-45F2-B468-592564E2EA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CFC984C-5D1D-45F2-B468-592564E2EA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17435BD3-F8B1-449D-B392-446D932A62E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17435BD3-F8B1-449D-B392-446D932A62E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17435BD3-F8B1-449D-B392-446D932A62E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17435BD3-F8B1-449D-B392-446D932A62E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5884BB6-AEFA-4321-A02C-E66E1FB38FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5884BB6-AEFA-4321-A02C-E66E1FB38FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5884BB6-AEFA-4321-A02C-E66E1FB38FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5884BB6-AEFA-4321-A02C-E66E1FB38FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
